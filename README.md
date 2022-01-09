@@ -1,4 +1,4 @@
-# GitHub Profile Card
+# Lab: GitHub Profile Card
 
 ## TODO 
 
