@@ -19,7 +19,11 @@ You can check the branch [solution](https://github.com/crguezl/vuejs-components-
 * [ ] Add CDNs for [Semantic UI](#semantic-ui), [Vue](https://es.vuejs.org/v2/guide/installation.html#CDN) and [Axios](#axios)
 * [ ] Add the Code of the Semantic UI [Card](#card)
 * [ ] Create the Vue app object and link it with the `div` element with `id` `app`
-* [ ] Add the call to the component `<github-user-card username="githubuserlogin"></github-user-card>`
+* [ ] Add the call to the component 
+
+  ```html
+  <github-user-card username="githubuserlogin"></github-user-card>
+  ```
 * [ ] Add a template with the id `github-user-card-template` for the component with the HTMl of Semantic UI [Card](#card)
 * [ ] Add the code to create the `github-user-card` component specifying the template
 * [ ] Add the property `username` and a `user` data to the component
