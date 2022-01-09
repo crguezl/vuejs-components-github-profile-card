@@ -13,7 +13,7 @@ It is convenient to study  these labs first:
 
 ### Component github-user-card 
 
-* [ ] Create the HTML initial template (Emmet !)
+* [ ] Create the `index.html` with HTML initial template (Emmet !)
 * [ ] Add CDNs for Semantic UI, Vue and Axios
 * [ ] Add the Code of the Semantic UI [Card](#card)
 * [ ] Create the Vue app object and linkit with the div element with id app
