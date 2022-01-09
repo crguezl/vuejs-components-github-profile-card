@@ -1,7 +1,7 @@
 
 ## TODO 
 
-# VueSchool Course Vue.js Components Fundamentals
+### VueSchool Course Vue.js Components Fundamentals
 
 Watch the videos at the [Vue.js Components Fundamentals](https://vueschool.io/courses/vuejs-components-fundamentals) course.
 
