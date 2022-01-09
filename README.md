@@ -1,16 +1,27 @@
 
 ## TODO 
 
+### VueSchool Course Vue.js Components Fundamentals
+
+For this lab you have to watch the video [Build a GitHub user profile component](https://vueschool.io/lessons/build-a-github-user-profile-component) and solve the exercise.
+
+It is convenient to study  these labs first:
+
+* The lab [Vue.js Fundamentals at crguezl/vuejs-fundamentals](https://github.com/crguezl/vuejs-fundamentals#readme)
+* The lab [Vue Components Basics at crguezl/vuejs-components-basics-plan-picker-component](https://github.com/crguezl/vuejs-components-basics-plan-picker-component)
+* Watch the videos at the [Vue.js Components Fundamentals](https://vueschool.io/courses/vuejs-components-fundamentals) course.
+
+You can check the branch `solution` if you have doubts
+
 ### Component github-user-card 
 
-* [ ] Create the HTML initial template
-* [ ] Add CDNs for Semantic UI, Vue and Axios
+* [ ] Create the `index.html` with HTML initial template (Emmet !)
+* [ ] Add CDNs for [Semantic UI](#semantic-ui), [Vue](https://es.vuejs.org/v2/guide/installation.html#CDN) and [Axios](#axios)
 * [ ] Add the Code of the Semantic UI [Card](#card)
-* [ ] Create the Vue app object and linkit with the div element with id app
-* [ ] Add the call to the component `<github-user-card username="hootlex"></github-user-card>`
+* [ ] Create the Vue app object and link it with the `div` element with `id` `app`
+* [ ] Add the call to the component `<github-user-card username="githubuserlogin"></github-user-card>`
 * [ ] Add a template with the id `github-user-card-template` for the component with the HTMl of Semantic UI [Card](#card)
 * [ ] Add the code to create the `github-user-card` component specifying the template
-  * See file `teacher.html` at branch `profile-card` if you have doubts
 * [ ] Add the property `username` and a `user` data to the component
 * [ ] Add a hook `created` to the component. Inside this hook we are going to make the axios call to the GitHub API for the user info
 * [ ] Using the Vue dev tools check that the request is working and the `user` data has the expected contents

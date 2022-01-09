@@ -1,0 +1,20 @@
+{
+  "name": "vuejs-components-github-profile-card",
+  "version": "1.0.0",
+  "description": "# VueSchool Course Vue.js Components Fundamentals",
+  "main": "index.js",
+  "scripts": {
+    "push": "git ci -am change; git push"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/crguezl/vuejs-components-github-profile-card.git"
+  },
+  "keywords": [],
+  "author": "Casiano Rodriguez Leon <crguezl@ull.edu.es> (https://crguezl.github.io/)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/crguezl/vuejs-components-github-profile-card/issues"
+  },
+  "homepage": "https://github.com/crguezl/vuejs-components-github-profile-card#readme"
+}
