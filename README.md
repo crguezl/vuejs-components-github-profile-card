@@ -1,6 +1,17 @@
 
 ## TODO 
 
+# VueSchool Course Vue.js Components Fundamentals
+
+Watch the videos at the [Vue.js Components Fundamentals](https://vueschool.io/courses/vuejs-components-fundamentals) course.
+
+**Vue.js Component Exercises:**
+- Build a GitHub user profile component
+
+You need a basic understanding of Vue.js to enjoy this course. We recommend watching [Vue.js Fundamentals](https://vueschool.io/courses/vuejs-fundamentals) if you're not already familiar with Vue.js
+
+[Click here to watch the course for free](https://vueschool.io/courses/vuejs-components-fundamentals)
+
 ### Component github-user-card 
 
 * [ ] Create the HTML initial template
