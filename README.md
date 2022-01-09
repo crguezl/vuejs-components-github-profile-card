@@ -5,12 +5,12 @@
 
 Watch the videos at the [Vue.js Components Fundamentals](https://vueschool.io/courses/vuejs-components-fundamentals) course.
 
-**Vue.js Component Exercises:**
-- Build a GitHub user profile component
+for this lab you have to watch the video [Build a GitHub user profile component](https://vueschool.io/lessons/build-a-github-user-profile-component) and solve the exercise.
 
-You need a basic understanding of Vue.js to enjoy this course. We recommend watching [Vue.js Fundamentals](https://vueschool.io/courses/vuejs-fundamentals) if you're not already familiar with Vue.js
+It is convenient to study  these labs first:
 
-[Click here to watch the course for free](https://vueschool.io/courses/vuejs-components-fundamentals)
+* The lab [Vue.js Fundamentals at crguezl/vuejs-fundamentals](https://github.com/crguezl/vuejs-fundamentals#readme)
+* The lab [Vue Components Basics at crguezl/vuejs-components-basics-plan-picker-component](https://github.com/crguezl/vuejs-components-basics-plan-picker-component)
 
 ### Component github-user-card 
 
