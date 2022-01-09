@@ -11,9 +11,9 @@ It is convenient to study  these labs first:
 * The lab [Vue Components Basics at crguezl/vuejs-components-basics-plan-picker-component](https://github.com/crguezl/vuejs-components-basics-plan-picker-component)
 * Watch the videos at the [Vue.js Components Fundamentals](https://vueschool.io/courses/vuejs-components-fundamentals) course.
 
-You can check the branch `solution` if you have doubts
+You can check the branch [solution](https://github.com/crguezl/vuejs-components-github-profile-card/tree/solution) if you have doubts
 
-### Component github-user-card 
+### Writing the Component github-user-card 
 
 * [ ] Create the `index.html` with HTML initial template (Emmet !)
 * [ ] Add CDNs for [Semantic UI](#semantic-ui), [Vue](https://es.vuejs.org/v2/guide/installation.html#CDN) and [Axios](#axios)
@@ -23,9 +23,9 @@ You can check the branch `solution` if you have doubts
 * [ ] Add a template with the id `github-user-card-template` for the component with the HTMl of Semantic UI [Card](#card)
 * [ ] Add the code to create the `github-user-card` component specifying the template
 * [ ] Add the property `username` and a `user` data to the component
-* [ ] Add a hook `created` to the component. Inside this hook we are going to make the axios call to the GitHub API for the user info
+* [ ] Add a [hook](https://crguezl.github.io/learning-vue-geting-started-guide/#instance-lifecycle-hooks) `created` to the component. Inside this [hook](https://crguezl.github.io/learning-vue-geting-started-guide/#instance-lifecycle-hooks) we are going to make the [axios](#axios) call to the [GitHub REST API for the user info](https://docs.github.com/en/rest/reference/users#get-a-user)
 * [ ] Using the Vue dev tools check that the request is working and the `user` data has the expected contents
-* [ ] Using GitHub REST API you can get the user info from <https://api.github.com/users/crguezl>. Here are some of the fields that can be relevant for the `github-user-card` component:
+* [ ] Using GitHub REST API [you can get the user info]((https://docs.github.com/en/rest/reference/users#get-a-user)) from <https://api.github.com/users/crguezl>. Here are some of the fields that can be relevant for the `github-user-card` component:
 
   ```json
   {
@@ -47,6 +47,14 @@ You can check the branch `solution` if you have doubts
     }
   ```
 * [ ] Add the relevant information to the template. Use a computed property `githubYear` so that appears only the year in which the user joined GitHub
+
+  ```js
+        computed: {
+          githubYear() {
+            ...
+          }
+      },
+  ```
 * [ ] Put all the `github-user-card` components inside a `div` with classes `ui` and `cards` to have them in the same line. See <https://semantic-ui.com/views/card.html#cardsq>
 
 ## Semantic UI
