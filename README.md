@@ -4,6 +4,8 @@
 
 ### VueSchool Course Vue.js Components Fundamentals
 
+See the result working in the [GitHub Page of this repo](https://crguezl.github.io/vuejs-components-github-profile-card/index.html)
+
 For this lab you have to watch the video [Build a GitHub user profile component](https://vueschool.io/lessons/build-a-github-user-profile-component) and solve the exercise.
 
 It is convenient to study  these labs first:
